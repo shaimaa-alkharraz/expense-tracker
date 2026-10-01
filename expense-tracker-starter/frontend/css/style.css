@@ -1,0 +1,53 @@
+/* Your custom styles go here.
+   Use Bootstrap classes first, and write your own CSS only when you need to. */
+/* Dark Mode */
+.dark-mode {
+  background-color: #212529;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Dark Mode Table */
+.dark-mode .table {
+  --bs-table-bg: #343a40;
+  --bs-table-color: white;
+  --bs-table-striped-bg: #2b3035;
+  --bs-table-striped-color: white;
+  --bs-table-hover-bg: #3d444a;
+  --bs-table-hover-color: white;
+  border-color: #495057;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+  color: white;
+  border-color: #495057;
+}
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #343a40;
+  color: white;
+  border-color: #6c757d;
+}
+
+.dark-mode .modal-content {
+  background-color: #343a40;
+  color: white;
+}
+/* Summary Cards - CSS Grid */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* Responsive - Phone */
+@media (max-width: 768px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
