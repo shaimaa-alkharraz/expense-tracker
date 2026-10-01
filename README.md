@@ -6,6 +6,10 @@ A full-stack Expense Tracker application built using HTML, CSS, Bootstrap, JavaS
 ## GitHub Repository
 
 https://github.com/shaimaa-alkharraz/expense-tracker
+
+## Demo Video
+
+[Watch the Expense Tracker Demo Video](https://drive.google.com/file/d/1cWO75NZ7phkt_7-2K84tZDzG0QGvAQDV/view?usp=sharing)
 ## Features
 
 - View all expenses
