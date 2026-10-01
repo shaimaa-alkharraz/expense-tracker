@@ -2,6 +2,10 @@
 
 A full-stack Expense Tracker application built using HTML, CSS, Bootstrap, JavaScript, Node.js, Express.js, and PostgreSQL.
 
+
+## GitHub Repository
+
+https://github.com/shaimaa-alkharraz/expense-tracker
 ## Features
 
 - View all expenses
